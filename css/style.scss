@@ -3,7 +3,7 @@ $white: #ffffff;
 $primary1: #ff2953;
 
 @mixin main-font {
-  font-family: 'Poppins', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius) {
@@ -106,7 +106,7 @@ body {
   height: auto;
 }
 
-.header_section {}
+
 
 .header_section .container-fluid {
   padding-right: 25px;
@@ -459,7 +459,7 @@ a:focus {
 
   }
 
-  form {}
+  
 
   input {
     width: 100%;
